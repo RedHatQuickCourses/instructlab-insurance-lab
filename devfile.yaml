@@ -1,8 +1,8 @@
 schemaVersion: 2.1.0
 metadata:
-  name: rhods-quick-course
-  displayName: RHODS Quick Course
-  description: RHODS Quick Course published using Antora
+  name: instructlab-insurance-lab
+  displayName: InstructLab - Training Merlinite for Parasol Insurance
+  description: This training lab focuses on equipping the Merlinite AI model with the capability to handle and respond to queries related to Parasol Insurance using InstructLab.
   icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg
   tags:
     - Node.js

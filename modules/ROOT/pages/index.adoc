@@ -1,6 +1,52 @@
-= An Example Quick Course
+= InstructLab: Training Merlinite for Parasol Insurance
+
 :navtitle: Home
 
 == Introduction
 
-This is an example quick course demonstrating the usage of Antora for authoring and publishing quick courses.
+Welcome to this quick course on the _InstructLab: Training Merlinite for Parasol Insurance_.
+
+Before embarking on this training, consider the following situation:
+
+. Imagine stepping into the Parasol Insurance application, where customers seek answers to their pressing insurance questions using an integrated chatbot.
+* The Merlinite AI model, operating behind this chatbot, stands as their trusted guide, ready to provide accurate and efficient responses.
+* However, the Merlinite AI model does not come pre-equipped with all the knowledge it needs about the Parasol Insurance application.
+* The model requires specialized training to master the intricacies of Parasol insurance queries.
+
+In this immersive training lab, you'll become the master behind the scenes, gathering specific datasets and applying advanced techniques to train Merlinite using InstructLab. With each step, you'll refine its capabilities to accurately answer customer questions.
+
+As you progress, you'll see Merlinite transform into a reliable source of information for Parasol Insurance. By the end, you'll have the skills to fine-tune AI models for specialized insurance applications, enhancing both the AI's performance and the customer experience, making you an essential part of Parasol Insurance's innovation.
+
+== Contributors
+
+The PTL team acknowledges the valuable contributions of the following Red Hat associates:
+
+* Yogita Soni
+* Rutuja Deshmukh
+* James Labocki
+* Hunter Gerlach
+
+== Classroom Environment
+
+InstuctLab running on RHEL with Nvidia A10 GPU and full Nvidia/CUDA stack. This training includes detailed lab instructions for learners to follow.
+
+NOTE: This lab uses a GPU and has a higher cost than normal. Please use economically and shutdown or suspend after use.
+
+. Environment Specifications:
+.. 1 x RHEL 9.3 VM with Nvidia GPU and CUDA
+.. Python 3.11
+.. Nvidia Drivers and CUDA pre-installed
+.. Nvidia A10 GPU (24GB)
+
+== Prerequisites
+
+* https://training-lms.redhat.com/lmt/clmsCourseDetails.prMain?in_sessionId=1093821028102J20&in_from_module=CLMSBROWSEV2.PRMAIN&in_offeringId=61705036[Introduction to Large Language Models]
+* https://demo.redhat.com/catalog?search=instruct&item=babylon-catalog-prod%2Frhdp.instructlab-rhel.prod[Getting Started with InstructLab]
+
+== Objectives
+
+The overall objectives of this course include:
+
+* Understand the foundational concepts of training AI models using InstructLab.
+* Learn how to gather and utilize specific datasets for training the Merlinite AI model.
+* Gain insights into the practical application of AI models within the insurance industry, improving both the model's performance and the customer experience.

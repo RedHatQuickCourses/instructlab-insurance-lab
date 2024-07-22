@@ -1,10 +1,10 @@
 site:
-  title: Placeholder Course Title
-  start_page: placeholder-course-name::index.adoc
+  title: InstructLab Unleashed - Parasol Insurance Use Case
+  start_page: instructlab-insurance-lab::index.adoc
 
 content:
   sources:
-  - url: ./
+    - url: ./
 
 asciidoc:
   attributes:
