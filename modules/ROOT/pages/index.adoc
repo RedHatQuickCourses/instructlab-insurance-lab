@@ -8,10 +8,10 @@ Welcome to this quick course on the _InstructLab: Training Merlinite for Parasol
 
 Before embarking on this training, consider the following situation:
 
-. Imagine stepping into the Parasol Insurance application, where customers seek answers to their pressing insurance questions using an integrated chatbot.
-* The Merlinite AI model, operating behind this chatbot, stands as their trusted guide, ready to provide accurate and efficient responses.
-* However, the Merlinite AI model does not come pre-equipped with all the knowledge it needs about the Parasol Insurance application.
-* The model requires specialized training to master the intricacies of Parasol insurance queries.
+* Imagine stepping into the Parasol Insurance application, where customers seek answers to their pressing insurance questions using an integrated chatbot.
+** The Merlinite AI model, operating behind this chatbot, stands as their trusted guide, ready to provide accurate and efficient responses.
+** However, the Merlinite AI model does not come pre-equipped with all the knowledge it needs about the Parasol Insurance application.
+** The model requires specialized training to master the intricacies of Parasol insurance queries.
 
 In this immersive training lab, you'll become the master behind the scenes, gathering specific datasets and applying advanced techniques to train Merlinite using InstructLab. With each step, you'll refine its capabilities to accurately answer customer questions.
 
@@ -21,10 +21,10 @@ As you progress, you'll see Merlinite transform into a reliable source of inform
 
 The PTL team acknowledges the valuable contributions of the following Red Hat associates:
 
+* Tony Kay
+* James Labocki
 * Yogita Soni
 * Rutuja Deshmukh
-* James Labocki
-* Hunter Gerlach
 
 == Classroom Environment
 
