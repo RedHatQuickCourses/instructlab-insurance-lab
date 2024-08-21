@@ -1,6 +1,6 @@
 site:
   title: Placeholder Course Title
-  start_page: REPLACEREPONAME::index.adoc
+  start_page: instructlab-insurance-lab::index.adoc
 
 content:
   sources:

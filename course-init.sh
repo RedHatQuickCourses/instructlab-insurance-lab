@@ -1,8 +1,8 @@
 ## Get the training repository name and replace it with the placeholder string in different files
 REPONAME=$(basename `git rev-parse --show-toplevel`)
 echo -ne "Initializing $REPONAME . . . "
-sed -i "s/REPLACEREPONAME/${REPONAME}/g" *.* > /dev/null 2>&1
-sed -i "s/REPLACEREPONAME/${REPONAME}/g" supplemental-ui/partials/header-content.hbs > /dev/null 2>&1
+sed -i "s/instructlab-insurance-lab/${REPONAME}/g" *.* > /dev/null 2>&1
+sed -i "s/instructlab-insurance-lab/${REPONAME}/g" supplemental-ui/partials/header-content.hbs > /dev/null 2>&1
 echo -e "done"
 
 mv -f README-TRAINING.md README.md

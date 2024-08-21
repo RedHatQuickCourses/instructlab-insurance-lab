@@ -1,5 +1,5 @@
-name: REPLACEREPONAME
-title: FIXME Course Title
+name: instructlab-insurance-lab
+title: InstructLab Unleashed - Training the Merlinite Model to Answer Questions for Parasol Insurance
 version: 1
 nav:
 - modules/ROOT/nav.adoc
