@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lab Excerise: The Solution! :: InstructLab Unleashed - Training the Merlinite Model</title>
+    <link rel="prev" href="index.html">
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.redhat.com" target="_blank"><img src="../../../_/img/redhat-logo.png" height="40px" alt="Red Hat"></a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">InstructLab Unleashed - Training the Merlinite Model</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/RedHatQuickCourses/instructlab-insurance-lab/issues" target="_blank">Report Issues</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="instructlab-insurance-lab" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">InstructLab Unleashed - Training the Merlinite Model to Answer Questions for Parasol Insurance</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../LABENV/index.html">Lab Environment</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="index.html">Lab Excerise: The Problem!</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="solution.html">Lab Excerise: The Solution!</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">InstructLab Unleashed - Training the Merlinite Model to Answer Questions for Parasol Insurance</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">InstructLab Unleashed - Training the Merlinite Model to Answer Questions for Parasol Insurance</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">InstructLab Unleashed - Training the Merlinite Model to Answer Questions for Parasol Insurance</a></li>
+    <li><a href="solution.html">Lab Excerise: The Solution!</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Lab Excerise: The Solution!</h1>
+<div class="paragraph">
+<p>In this lab, you&#8217;ll continue the journey with InstructLab to train the Merlinite model. Your mission is to refine its responses so it can deliver a more accurate answer to the question, "How much does it cost to repair a flux capacitor in a DeLorean?" Let&#8217;s bring a touch of clarity to our chatbot&#8217;s whimsical responses!</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>In this lab, you&#8217;ll keep the three terminals that served as your companions in the previous section when you were reproducing the problem. Each terminal will continue to play its crucial role as you move forward in the exercise.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Monitor the GPU:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Keep the first terminal open, running the nvtop command, to dive back into real-time GPU insights, just as you did in the previous lab. This terminal will continue to be your window into the dynamic world of GPU performance.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>nvtop</strong></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Training the Merlinite model using InstructLab:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Within this lab, you&#8217;ll find some data located at <strong>~/files/qna.yaml</strong> that contains the necessary details to answer questions such as "How much does it cost to repair a flux capacitor in a DeLorean?" for the Parasol Insurance application.</p>
+</li>
+<li>
+<p>Switch to the third terminal, and stop the <code>ilab serve</code> command and review the data at <strong>~/files/qna.yaml</strong> and familiarize yourself with its contents.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ cat ~/files/qna.yaml</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Create below folder to hold the data related to the Parasol Insurance application.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ mkdir -p ~/instructlab/taxonomy/knowledge/parasol/overview</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Copy the <strong>~/files/qna.yaml</strong> to this newly created location.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ cp ~/files/qna.yaml ~/instructlab/taxonomy/knowledge/parasol/overview/qna.yaml</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Let&#8217;s compare the current state of taxonomy against the newly copied <strong>qna.yaml</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ ilab taxonomy diff
+knowledge/parasol/overview/qna.yaml
+Taxonomy in taxonomy is valid :)</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Next, let&#8217;s create synthetic training data. This command will generate 200 new instructions based on the provided taxonomy and model configuration. By generating this data, you enhance the model&#8217;s ability to understand and respond accurately to various queries. This synthetic data is crucial for improving the model&#8217;s performance and ensuring it can handle a wide range of questions related to the Parasol Insurance application. This step will take around approximate 75 minutes to complete! The command will also require significant computational resources, including GPU power.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ ilab data generate --num-instructions 200</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Let&#8217;s train the Merlinite model to better understand and respond to queries, improving its performance and accuracy in real-world applications. The <strong>--iters 300</strong> in below specifies that the model should undergo 300 training iterations. The <strong>--device cuda</strong> option tells the training process to utilize the GPU (CUDA-enabled device) for enhanced computational performance.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ ilab model train --iters 300 --device cuda
+LINUX_TRAIN.PY: NUM EPOCHS IS:  1
+LINUX_TRAIN.PY: TRAIN FILE IS:  taxonomy_data/train_gen.jsonl
+...
+...
+Wrote training_results/final/ggml-model-f16.gguf
+Save trained model to models/ggml-model-f16.gguf</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Let&#8217;s start serving your trained model.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ ilab model serve --model-path ./models/ggml-model-f16.gguf
+INFO 2024-07-18 14:05:59,171 serve.py:51: serve Using model './models/ggml-model-f16.gguf' with -1 gpu-layers and 4096 max context size.
+INFO 2024-07-18 14:07:47,576 server.py:218: server Starting server process, press CTRL+C to shutdown server...
+INFO 2024-07-18 14:07:47,578 server.py:219: server After application startup complete see <a href="http://127.0.0.1:8000/docs" class="bare">http://127.0.0.1:8000/docs</a> for API.
+...
+...</pre>
+</div>
+</div>
+</li>
+<li>
+<p>To put the model&#8217;s training to the ultimate test, we&#8217;ll start by asking a specific question: <strong>How much does it cost to repair a flux capacitor in a DeLorean?</strong>. The expected answer is $10,000,000. This test will reveal if the model has absorbed the training effectively and is capable of providing accurate and reliable responses.</p>
+<div class="listingblock">
+<div class="content">
+<pre>(venv) [instruct@instructlab instructlab]$ ilab chat
+You are using an aliased command, this will be deprecated in a future release. Please consider using <code>ilab model chat</code> instead
+╭───────────────────────────────────────────── system ──────────────────────────────────────────────╮
+│ Welcome to InstructLab Chat w/ ./MODELS/GGML-MODEL-F16.GGUF (type /h for help)                    │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
+&gt;&gt;&gt; how much does it cost to repair a flux capacitor in a delorean?                      [S][default]
+╭────────────────────────────────── ./models/ggml-model-f16.gguf ───────────────────────────────────╮
+│ Repairing a flux capacitor costs $10,000,000 dollars.                                             │
+╰─────────────────────────────────────────────────────────────────────────── elapsed 1.031 seconds ─╯
+&gt;&gt;&gt; exit                                                                                [S][default]</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Test the chatbot response of Parasol Insurance application:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Switch to the second terminal. Start the Quarkus development mode and ensure it continues running so you can access the Parasol Insurance application.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab app]$ <strong>quarkus dev</strong>
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------&lt; org.parasol:insurance-app &gt;----------------------
+...
+...
+--
+Tests paused
+Press [e] to edit command line args (currently ''), [r] to resume testing, [o] Toggle test output, [:] for the terminal, [h] for more options&gt;</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Using your browser, navigate to the Parasol Insurance application, using the hostname provided in the "<strong>Your Showroom Host</strong>: &lt;hostname&gt;" information on the demo.redhat.com platform. Verify that the application is accessible on port <code>8005</code> as shown in the screenshot below.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/app.png" alt="app">
+</div>
+</div>
+</li>
+<li>
+<p>Select the first claim as shown in the screenshot below.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/claim.png" alt="claim">
+</div>
+</div>
+</li>
+<li>
+<p>Tap on the chatbot logo nestled in the bottom right corner of the claims page. Pose the intriguing question, "How much does it cost to repair a flux capacitor in a DeLorean?" and watch as the chatbot gives a response that clearly shows the same answer as mentioned in the <code>ilab chat</code> command.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/cost.png" alt="cost">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Voila! Our chatbot is now trained successfully with the answer we needed.</p>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="index.html">Lab Excerise: The Problem!</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <img src="../../../_/img/rhl-logo-red.png" height="40px" alt="Red Hat"  href="https://redhat.com" >
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

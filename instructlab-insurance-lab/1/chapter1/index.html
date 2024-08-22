@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Chapter 1 :: Placeholder Course Title</title>
+    <title>Lab Excerise: The Problem! :: InstructLab Unleashed - Training the Merlinite Model</title>
     <link rel="prev" href="../LABENV/index.html">
-    <link rel="next" href="section1.html">
+    <link rel="next" href="solution.html">
     <meta name="generator" content="Antora 3.1.3">
     <link rel="stylesheet" href="../../../_/css/site.css">
     <script>var uiRootPath = '../../../_'</script>
@@ -15,7 +15,7 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://www.redhat.com" target="_blank"><img src="../../../_/img/redhat-logo.png" height="40px" alt="Red Hat"></a>
-      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">Placeholder Course Title</a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">InstructLab Unleashed - Training the Merlinite Model</a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -40,13 +40,6 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../index.html">Home</a>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="../LABENV/index.html">Lab Environment</a>
   </li>
 </ul>
@@ -54,55 +47,10 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item is-current-page" data-depth="1">
-    <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="index.html">Chapter 1</a>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section1.html">Section 1</a>
+    <a class="nav-link" href="index.html">Lab Excerise: The Problem!</a>
   </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section2.html">Section 2</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section3.html">Section 3</a>
-  </li>
-</ul>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter2/index.html">Chapter 2</a>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter2/section1.html">Section 1</a>
-  </li>
-</ul>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item" data-depth="1">
-    <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter3/index.html">Chapter 3</a>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter3/section1.html">Section 1</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter3/section2.html">Section 2</a>
-  </li>
-</ul>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../appendix/appendix.html">Appendix A</a>
+    <a class="nav-link" href="solution.html">Lab Excerise: The Solution!</a>
   </li>
 </ul>
   </li>
@@ -135,7 +83,7 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="../index.html">InstructLab Unleashed - Training the Merlinite Model to Answer Questions for Parasol Insurance</a></li>
-    <li><a href="index.html">Chapter 1</a></li>
+    <li><a href="index.html">Lab Excerise: The Problem!</a></li>
   </ul>
 </nav>
 </div>
@@ -144,13 +92,313 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Chapter 1</h1>
+<h1 class="page">Lab Excerise: The Problem!</h1>
 <div class="paragraph">
-<p>This is the home page of <em>Chapter</em> 1 in the <strong>hello</strong> quick course&#8230;&#8203;</p>
+<p>In this lab exercise, you deploy the Parasol Insurance application using Quarkus and test the chatbot by asking, "How much does it cost to repair a flux capacitor in a DeLorean?" You&#8217;ll notice that the chatbot gives a humorous, off-base answer, showing it doesn&#8217;t know about this fictional repair.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>In this lab, you&#8217;ll be working with three terminals, each serving a distinct purpose:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>First Terminal: Keep an eye on GPU performance throughout the lab. This terminal will provide real-time monitoring to ensure everything is running smoothly.</p>
+</li>
+<li>
+<p>Second Terminal: Use this terminal to manage the Quakarus application, which will host the Parasol Insurance Application. It&#8217;s your gateway to running and maintaining the application effectively.</p>
+</li>
+<li>
+<p>Third Terminal: This terminal is dedicated to InstructLab. Here, you&#8217;ll train the Merlinite model specifically for the Parasol Insurance Application, setting up the environment and executing the necessary commands for model training.</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Monitor the GPU:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Open first terminal and execute the nvtop (NVIDIA TOP) command to immerse yourself in real-time GPU insights. This will allow you to keep a close watch on GPU utilization throughout the lab, ensuring you have a comprehensive understanding of your GPU&#8217;s performance.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>nvtop</strong></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Set up your lab environment for Parasol Insurance application and InstructLab:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Open second terminal and begin by creating the <code>~/install.sh</code> script using <code>vi</code> or any other editor of your choice to set up your lab environment.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>vi ~/install.sh</strong>
+#!/bin/bash
+cd ~
+rm -rf ~/instructlab
+rm -rf ~/.cache/pip
+mkdir ~/instructlab
+cd ~/instructlab
+python -m venv venv
+
+#source venv
+source venv/bin/activate
+
+#Upgrade InstructLab
+pip install instructlab
+
+#Need to change linux_train.py
+# was: tokenizer.eos_token
+# change to: tokenizer.unk_token
+sed -i.bak 's/tokenizer.eos_token/tokenizer.unk_token/' ~/instructlab/venv/lib/python3.11/site-packages/instructlab/train/linux_train.py
+
+#Need to pip install after making the previous change
+pip install .
+
+#Need new llama_cpp_python for things to work properly
+#This runs a LONG time for some reason
+pip install --force-reinstall "llama_cpp_python[server]==0.2.79" --config-settings  cmake.args="-DLLAMA_CUDA=on"
+
+#downgrade numpy or you'll get a breaking change to ilab training
+pip install 'numpy&lt;2.0'
+
+# Getting instructlab qna.yaml for backtothefuture example
+mkdir ~/files
+curl -o ~/files/qna.yaml <a href="https://raw.githubusercontent.com/gshipley/backToTheFuture/main/qna.yaml" class="bare">https://raw.githubusercontent.com/gshipley/backToTheFuture/main/qna.yaml</a>
+
+#Now lets install the parasol insurance app
+
+# ensure we are in home directory
+cd ~
+
+# Install zip
+echo "installing zip"
+sleep 1
+sudo dnf install zip -y
+
+# Install sdkman in order to get newer versions of Java and Maven. Then install Quarkus, Java, and Maven.
+echo "installing sdkman"
+sleep 1
+curl -s "https://get.sdkman.io" | bash
+source "/home/instruct/.sdkman/bin/sdkman-init.sh"
+sdk install java 21.0.3-tem
+sdk install quarkus
+
+# Clone parasol app
+echo "cloning parasol-insurance"
+sleep 1
+git clone <a href="https://github.com/rh-rad-ai-roadshow/parasol-insurance.git" class="bare">https://github.com/rh-rad-ai-roadshow/parasol-insurance.git</a></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Make the <code>~/install.sh</code> script executable and run it. Please note that the script may take 10-15 minutes to finish executing.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>chmod +x install.sh</strong>
+[instruct@instructlab ~]$ <strong>./install.sh</strong>
+Collecting instructlab
+  Downloading instructlab-0.17.1-py3-none-any.whl (168 kB)
+...
+...
+...
+remote: Total 267 (delta 56), reused 32 (delta 32), pack-reused 199
+Receiving objects: 100% (267/267), 2.70 MiB | 26.33 MiB/s, done.
+Resolving deltas: 100% (86/86), done.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Initialse and set up the InstructLab:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Open third terminal and navigate to the InstructLab directory:</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>cd instructlab</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Activate the virtual environment:</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab instructlab]$ <strong>source venv/bin/activate</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Initialize InstructLab to set up a ready-to-use environment for your project. Respond to the interactive prompts as shown in the output below during the execution of the <code>ilab init</code> command.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab instructlab]$ <strong>ilab config init</strong>
+Found config.yaml in the current directory, do you still want to continue? [y/N]: <strong>y</strong>
+Welcome to InstructLab CLI. This guide will help you to setup your environment.
+Please provide the following values to initiate the environment [press Enter for defaults]:
+Path to taxonomy repo [taxonomy]: <strong>&lt;press enter&gt;</strong>
+Path to your model [models/merlinite-7b-lab-Q4_K_M.gguf]:
+Generating <code>config.yaml</code> in the current directory...
+Initialization completed successfully, you're ready to start using <code>ilab</code>. Enjoy!</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Download the <code>merlinite model</code>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab instructlab]$ <strong>ilab model download</strong>
+Downloading model from instructlab/merlinite-7b-lab-GGUF@main to models...</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Serve the model and keep the model serving running in the background in the terminal.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab instructlab]$ <strong>ilab model serve</strong>
+INFO 2024-07-20 13:06:20,621 serve.py:51: serve Using model 'models/merlinite-7b-lab-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Start the Parasol Insurance Application.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Switch back to second terminal and edit the <code>~/.bashrc</code> file to add the following line.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>vi ~/.bashrc</strong>
+export PATH="$HOME/.sdkman/candidates/quarkus/current/bin:$PATH"</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Change directory to <code>~/parasol-insurance/app</code>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab ~]$ <strong>cd ~/parasol-insurance/app</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Reload the <code>~/.bashrc</code> file to apply the changes.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab app]$ <strong>source ~/.bashrc</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Verify the Quarkus installation by checking its version.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab app]$ <strong>quarkus --version</strong>
+Looking for the newly published extensions in registry.quarkus.io
+3.12.3</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Start the Quarkus development mode and ensure it continues running so you can access the Parasol Insurance application.</p>
+<div class="listingblock">
+<div class="content">
+<pre>[instruct@instructlab app]$ <strong>quarkus dev</strong>
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------&lt; org.parasol:insurance-app &gt;----------------------
+...
+...
+--
+Tests paused
+Press [e] to edit command line args (currently ''), [r] to resume testing, [o] Toggle test output, [:] for the terminal, [h] for more options&gt;</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Using your browser, navigate to the Parasol Insurance application, using the hostname provided in the "<strong>Your Showroom Host</strong>: &lt;hostname&gt;" information on the demo.redhat.com platform. Verify that the application is accessible on port <code>8005</code> as shown in the screenshot below.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/app.png" alt="app">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>To ensure seamless access to the application, please open it in incognito mode if you encounter any issues while using a regular browser.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Select the first claim as shown in the screenshot below.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/claim.png" alt="claim">
+</div>
+</div>
+</li>
+<li>
+<p>Tap on the chatbot logo nestled in the bottom right corner of the claims page. Pose the intriguing question, "How much does it cost to repair a flux capacitor in a DeLorean?" and watch as the chatbot gives a response that clearly shows it&#8217;s not familiar with this quirky detail.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/claim2.png" alt="claim2">
+</div>
+</div>
+</li>
+<li>
+<p>Try asking again, and you&#8217;ll notice that the answer remains just as playful and elusive.</p>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/claim3.png" alt="claim3">
+</div>
+</div>
+</li>
+<li>
+<p>Head to the next section where you&#8217;ll tackle this challenge by training the chatbot. Using InstructLab, you&#8217;ll guide the Merlinite model through its paces, equipping it with the knowledge needed to provide more accurate answers. Let&#8217;s dive into the process and transform our chatbot&#8217;s responses together!</p>
+</li>
+</ul>
 </div>
 <nav class="pagination">
   <span class="prev"><a href="../LABENV/index.html">Lab Environment</a></span>
-  <span class="next"><a href="section1.html">Section 1</a></span>
+  <span class="next"><a href="solution.html">Lab Excerise: The Solution!</a></span>
 </nav>
 </article>
   </div>
