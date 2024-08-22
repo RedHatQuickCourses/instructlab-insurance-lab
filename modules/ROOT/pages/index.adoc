@@ -28,9 +28,9 @@ The PTL team acknowledges the valuable contributions of the following Red Hat as
 
 == Classroom Environment
 
-InstuctLab running on RHEL with Nvidia A10 GPU and full Nvidia/CUDA stack. This training includes detailed lab instructions for learners to follow.
+InstuctLab is running on RHEL with Nvidia A10 GPU and full Nvidia/CUDA stack. This training includes detailed lab instructions for learners to follow.
 
-NOTE: This lab uses a GPU and has a higher cost than normal. Please use economically and shutdown or suspend after use.
+NOTE: This lab uses a GPU and has a higher cost than normal. Please use it economically and shut down or suspend after use.
 
 . Environment Specifications:
 .. 1 x RHEL 9.3 VM with Nvidia GPU and CUDA
@@ -41,6 +41,7 @@ NOTE: This lab uses a GPU and has a higher cost than normal. Please use economic
 == Prerequisites
 
 * https://training-lms.redhat.com/lmt/clmsCourseDetails.prMain?in_sessionId=1093821028102J20&in_from_module=CLMSBROWSEV2.PRMAIN&in_offeringId=61705036[Introduction to Large Language Models]
+// Link not accessible
 * https://demo.redhat.com/catalog?search=instruct&item=babylon-catalog-prod%2Frhdp.instructlab-rhel.prod[Getting Started with InstructLab]
 
 == Objectives

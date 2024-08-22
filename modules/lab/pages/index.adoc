@@ -12,15 +12,15 @@ In this lab, you'll be working with three terminals, each serving a distinct pur
 ====
 
 . Monitor the GPU:
-* Open first terminal and execute the nvtop (NVIDIA TOP) command to immerse yourself in real-time GPU insights. This will allow you to keep a close watch on GPU utilization throughout the lab, ensuring you have a comprehensive understanding of your GPU's performance.
+* Open the first terminal and execute the nvtop (NVIDIA TOP) command to immerse yourself in real-time GPU insights. This will allow you to keep a close watch on GPU utilization throughout the lab, ensuring you have a comprehensive understanding of your GPU's performance.
 +
 [subs="+quotes,+macros"]
 ----
 [instruct@instructlab ~]$ **nvtop**
 ----
 
-. Set up your lab environment for Parasol Insurance application and InstructLab:
-* Open second terminal and begin by creating the `~/install.sh` script using `vi` or any other editor of your choice to set up your lab environment.
+. Set up your lab environment for the Parasol Insurance application and InstructLab:
+* Open the second terminal and begin by creating the `~/install.sh` script using `vi` or any other editor of your choice to set up your lab environment.
 +
 [subs="+quotes,+macros"]
 ----
@@ -58,9 +58,9 @@ pip install 'numpy<2.0'
 mkdir ~/files
 curl -o ~/files/qna.yaml https://raw.githubusercontent.com/gshipley/backToTheFuture/main/qna.yaml
 
-#Now lets install the parasol insurance app
+#Now let's install the parasol insurance app
 
-# ensure we are in home directory
+# ensure we are in the home directory
 cd ~
 
 # Install zip
@@ -98,8 +98,8 @@ Receiving objects: 100% (267/267), 2.70 MiB | 26.33 MiB/s, done.
 Resolving deltas: 100% (86/86), done.
 ----
 
-. Initialse and set up the InstructLab:
-* Open third terminal and navigate to the InstructLab directory:
+. Initialise and set up the InstructLab:
+* Open the third terminal and navigate to the InstructLab directory:
 +
 [subs="+quotes,+macros"]
 ----
@@ -119,7 +119,7 @@ Resolving deltas: 100% (86/86), done.
 ----
 [instruct@instructlab instructlab]$ **ilab config init**
 Found config.yaml in the current directory, do you still want to continue? [y/N]: **y**
-Welcome to InstructLab CLI. This guide will help you to setup your environment.
+Welcome to InstructLab CLI. This guide will help you to set up your environment.
 Please provide the following values to initiate the environment [press Enter for defaults]:
 Path to taxonomy repo [taxonomy]: **<press enter>**
 Path to your model [models/merlinite-7b-lab-Q4_K_M.gguf]:
@@ -145,7 +145,7 @@ INFO 2024-07-20 13:06:20,621 serve.py:51: serve Using model 'models/merlinite-7b
 
 . Start the Parasol Insurance Application.
 
-* Switch back to second terminal and edit the `~/.bashrc` file to add the following line.
+* Switch back to the second terminal and edit the `~/.bashrc` file to add the following line.
 +
 [subs="+quotes,+macros"]
 ----
@@ -153,7 +153,7 @@ INFO 2024-07-20 13:06:20,621 serve.py:51: serve Using model 'models/merlinite-7b
 export PATH="$HOME/.sdkman/candidates/quarkus/current/bin:$PATH"
 ----
 
-* Change directory to `~/parasol-insurance/app`.
+* Change the directory to `~/parasol-insurance/app`.
 +
 [subs="+quotes,+macros"]
 ----
