@@ -1,3 +1,7 @@
 = Lab Environment
 
-FIXME: Instructions for accessing the lab environment on the Demo platform, for this hands-on based training.
+Provision the lab environment https://demo.redhat.com/catalog?item=babylon-catalog-dev/rhdp.instructlab-parasol-rhel.dev&utm_source=webapp&utm_medium=share-link[Parasol Insurance Lab] at https://demo.redhat.com/[demo.redhat.com].
+
+It can take upto 20 minutes to get the lab environment.
+
+This training includes detailed lab instructions for learners to follow.
