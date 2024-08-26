@@ -4,7 +4,7 @@ In this lab exercise, you deploy the Parasol Insurance application using Quarkus
 
 [NOTE]
 ====
-In this lab, you'll be working with three terminals, each serving a distinct purpose:
+In this lab, you will be working with three terminals, each serving a distinct purpose:
 
 * First Terminal: Keep an eye on GPU performance throughout the lab. This terminal will provide real-time monitoring to ensure everything is running smoothly.
 * Second Terminal: Use this terminal to manage the Quakarus application, which will host the Parasol Insurance Application. It's your gateway to running and maintaining the application effectively.
