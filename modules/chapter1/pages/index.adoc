@@ -1,4 +1,4 @@
-= Lab Excerise: The Problem!
+= Lab Exercise: The Problem!
 
 In this lab exercise, you deploy the Parasol Insurance application using Quarkus and test the chatbot by asking, "How much does it cost to repair a flux capacitor in a DeLorean?" You'll notice that the chatbot gives a humorous, off-base answer, showing it doesn't know about this fictional repair.
 

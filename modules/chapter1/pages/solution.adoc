@@ -1,4 +1,4 @@
-= Lab Excerise: The Solution!
+= Lab Exercise: The Solution!
 
 In this lab, you'll continue the journey with InstructLab to train the Merlinite model. Your mission is to refine its responses so it can deliver a more accurate answer to the question, "How much does it cost to repair a flux capacitor in a DeLorean?" Let's bring a touch of clarity to our chatbot's whimsical responses!
 
