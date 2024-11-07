@@ -1,6 +1,6 @@
 = Lab Environment
 
-Provision the lab environment https://catalog.demo.redhat.com/catalog?item=babylon-catalog-prod/sandboxes-gpte.openshift-ai-unleashed.prod&utm_source=webapp&utm_medium=share-link[Parasol Insurance Lab] at https://demo.redhat.com/[demo.redhat.com].
+Provision the lab environment https://catalog.demo.redhat.com/catalog?utm_source=webapp&utm_medium=share-link&search=instructlab&item=babylon-catalog-prod%2Frhdp.instructlab-rhel.prod[Getting Started with InstructLab on RHEL] at https://demo.redhat.com/[demo.redhat.com].
 
 It can take upto 20 minutes to get the lab environment.
 
